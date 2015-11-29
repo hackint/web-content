@@ -10,4 +10,4 @@ We're now providing a https-enabled [webchat interface](/webchat)!
 
 
 **Jul 9 2015**  
-We replaced our [Certificate Authority](/hackintca) to support contemporary security standards. Please take the time to properly verify the new root certificate before using it.
+We replaced our [Certificate Authority](/ca) to support contemporary security standards. Please take the time to properly verify the new root certificate before using it.
