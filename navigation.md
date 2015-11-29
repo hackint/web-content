@@ -1,6 +1,7 @@
-- Navigation
+- Menu
     - [Home](/)
     - [Servers](/servers)
+    - [CA](/ca)
     - [Services](/services)
     - [Webchat](/webchat)
 - Support
