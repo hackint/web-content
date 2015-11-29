@@ -8,7 +8,7 @@ For connecting through Tor we provide hidden services, one that requires SASL au
 
 All hackint servers are using 4096bit RSA Keys, with SHA256 signatures. Both CRL and OCSP are available.
 
-For further details see the page regarding our [certificate authority](/ca).
+For further details see the page regarding our [certificate authority](/hackintca).
 
 ### Establishing a secure connection
 
