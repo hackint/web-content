@@ -12,7 +12,7 @@ For further details see the page regarding our [certificate authority](/ca).
 
 ### Establishing a secure connection
 
-To verify the authenticity of the server you connect to, download and verify [Hackint IRC Network Root CA](/ca/rootca.crt) and connect to the hackint irc network using a command like this:
+To verify the authenticity of the server you connect to, download and verify [Hackint IRC Network Root CA](/crt/rootca.crt) and connect to the hackint irc network using a command like this:
 
 #### irssi
 
