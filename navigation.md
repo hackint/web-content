@@ -1,0 +1,9 @@
+- Navigation
+    - [Home](/)
+    - [Servers](/servers)
+    - [Services](/services)
+    - [Webchat](/webchat)
+- Support
+    - [Support](/support)
+    - [FAQ](/faq)
+    - [Connect](/connect)
