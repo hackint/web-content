@@ -45,9 +45,10 @@ If however someone is able to compromise or imitate this website, they will also
 To calculate the fingerprint of the certificate you downloaded, use:
 
 ```
-openssl x509 -noout -fingerprint -sha256 -in rootca.crt</pre>
+openssl x509 -noout -fingerprint -sha256 -in rootca.crt
 ```
 If it matches you should now import the certificate into the certificate truststore used by your IRC client.   
+
 
 #### A better approach (GPG)
 The [Hackint IRC Network Root CA] certificate has been GPG signed by most of the irc server administrators. Hopefully, you know one of the admins or know someone who signed one of the admin's pgp keys.
@@ -69,15 +70,15 @@ To verify the authenticity of the [Hackint IRC Network Root CA], download one or
 
 Depending on your GPG Truststore this might or might not get any usable results. If one or more signatures match, you should now import the certificate into your IRC clients certificate truststore.
 
-[Hackint IRC Network Root CA]: /crt/rootca.crt
-[Hackint IRC Network Intermediate CA G1]: /crt/intermediate1.crt
-[combined signature file]: /crt/sigs/combined.asc
-[bspar.asc]: /crt/sigs/bspar.asc
-[cr0n.asc]: /crt/sigs/cr0n.asc
-[hansenerd.asc]: /crt/sigs/hansenerd.asc
-[hexa-.asc]: /crt/sigs/hexa-.asc
-[maniactwister.asc]: /crt/sigs/maniactwister.asc
-[major.asc]: /crt/sigs/major.asc
-[rdnzl.asc]: /crt/sigs/rdnzl.asc
-[undermink.asc]: /crt/sigs/undermink.asc
-[zakx.asc]: /crt/sigs/zakx.asc
+[Hackint IRC Network Root CA]: /ca/rootca.crt
+[Hackint IRC Network Intermediate CA G1]: /ca/intermediate1.crt
+[combined signature file]: /ca/sigs/combined.asc
+[bspar.asc]: /ca/sigs/bspar.asc
+[cr0n.asc]: /ca/sigs/cr0n.asc
+[hansenerd.asc]: /ca/sigs/hansenerd.asc
+[hexa-.asc]: /ca/sigs/hexa-.asc
+[maniactwister.asc]: /ca/sigs/maniactwister.asc
+[major.asc]: /ca/sigs/major.asc
+[rdnzl.asc]: /ca/sigs/rdnzl.asc
+[undermink.asc]: /ca/sigs/undermink.asc
+[zakx.asc]: /ca/sigs/zakx.asc
