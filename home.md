@@ -17,4 +17,4 @@ Access from i2p is no longer possible. This is due to the resource hungry i2p so
 We're sorry for this and hope to remedy the situation in the future; at present, however, due to resource shortage this step has become necessary.
 
 ### Jan 31 2015
-We have a [new policy](ihashcash.html) on anonymous access. Registration for anonymous users has been limited.
+We have a [new policy](ihashcash) on anonymous access. Registration for anonymous users has been limited.
