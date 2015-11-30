@@ -28,7 +28,7 @@ Certificate chain
 Before importing our CA you should verify your trust in it. Only then you can properly verify a servers identity and therefore ensure you will not be victim to a [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)-Attack.
 
 There are, as always, several grades of verification and you should decide, depending on
-your attacker model, which you want and/or need. Unfortunately, bootstrapping trust can be quite tricky.
+your attacker model, which you want and/or need. Unfortunately, bootstrapping trust can be quite tricky.   
 
 #### The naive approach (Fingerprint)
 Verify the serial SHA256 fingerprint given on this website against the certificate you downloaded.
@@ -47,7 +47,7 @@ To calculate the fingerprint of the certificate you downloaded, use:
 ```
 openssl x509 -noout -fingerprint -sha256 -in rootca.crt</pre>
 ```
-If it matches you should now import the certificate into the certificate truststore used by your IRC client.
+If it matches you should now import the certificate into the certificate truststore used by your IRC client.   
 
 #### A better approach (GPG)
 The [Hackint IRC Network Root CA] certificate has been GPG signed by most of the irc server administrators. Hopefully, you know one of the admins or know someone who signed one of the admin's pgp keys.
