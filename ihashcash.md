@@ -4,7 +4,7 @@ Anonymous access to hackint has been abused in the past. We do not wish to disab
 
 1. Connect via a Tor Hidden Service requiring SASL Authentication
 
-   This means that you need an account before you can access hackint anonymously. In order to create an account **anonymously**, please use our [online registration form](http://lechuck.hackint.org/hashcash/).
+   This means that you need an account before you can access hackint anonymously. In order to create an account **anonymously**, please use our [online registration form](https://hashcash.hackint.org).
 
    Users connecting this way will receive the hostmask **\*@gateway/tor-hashcash-verified**.
 
