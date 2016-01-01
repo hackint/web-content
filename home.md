@@ -4,6 +4,13 @@ hackint is a communication network for the [hacker](https://en.wikipedia.org/wik
 
 ## News
 
+### Jan 1 2016
+After finalising our upgrade of the GroupServ interface, we now would like to announce the availability of custom group-based virtual hosts. Currently, this is an offer for hackerspaces, Freifunk communities, and FOSS projects only - other applications may be evaluated on a case-by-case basis.
+
+If you are a group founder (flag +F), you can join the #hackint channel and request your vhost. Members of the group need the +v flag to have the custom virtual host offered through HostServ.
+
+Happy New Year!
+
 ### Aug 18 2015
 We're now providing a https-enabled [webchat interface](/webchat)!
 
