@@ -1,4 +1,4 @@
-# User Modes (*umodes*)
+## User Modes (*umodes*)
 
 User modes affect certain settings between you and the IRC Daemon, like how much information you will receive from the ircd or how easy it will be to find you. They're commonly refered to as *umodes*.
 

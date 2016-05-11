@@ -1,4 +1,4 @@
-# Channel Modes (cmodes)
+## Channel Modes (cmodes)
 
 Changing channel modes is an operation restricted to channel operators, who can be recognized by the @-prefixed to their name. They mostly regulate access and moderation.
 
