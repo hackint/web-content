@@ -1,12 +1,13 @@
 ## Servers
 | Description                          | Plain                     | TLS (recommended)                                       |
 |--------------------------------------|---------------------------|---------------------------------------------------------|
-| Round Robin:                         | <irc://irc.hackint.org>   | <ircs://irc.hackint.org:9999>                            |
-| From within [dn42.net] / [chaosvpn]  | <irc://irc.hackint.dn42>  | <ircs://irc.hackint.dn42:9999>                           |
-|                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:9999>                           |
-| [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                     |
-| [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                     |
+| Round Robin:                         | <irc://irc.hackint.org>   | <ircs://irc.hackint.org:9999>                           |
+| From within [dn42.net] / [chaosvpn]  | <irc://irc.hackint.dn42>  | <ircs://irc.hackint.dn42:9999>                          |
+|                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:9999>                          |
+| [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                    |
+| [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
+| Matrix                               |                           | *#channel*:irc.hackint.org
 
 ### Tor
 
