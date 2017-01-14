@@ -3,6 +3,8 @@
     - [Servers](/servers)
     - [CA](/ca)
     - [Services](/services)
+    - [Channel modes](/cmodes)
+    - [User modes](/umodes)
     - [Webchat](/webchat)
 - Support
     - [Support](/support)
