@@ -52,7 +52,7 @@ We currently support the following SASL mechanisms:
 - PLAIN
 - EXTERNAL (client certificate)
 
-## weechat
+### weechat
 <pre>
 /set irc.server.hackint.sasl_mechanism PLAIN
 /set irc.server.hackint.sasl_username NICKSERV_NAME
