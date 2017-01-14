@@ -2,7 +2,7 @@
 
 Anonymous access to hackint has been abused in the past. We do not wish to disable anonymous access, so we are introducing a new policy: Users wishing to connect to hackint anonymously have two possibilities:
 
-1. Connect via a Tor Hidden Service requiring SASL Authentication
+1. Connect via a Tor Onion Service **requiring** SASL Authentication
 
    This means that you need an account before you can access hackint anonymously. In order to create an account **anonymously**, please use our [online registration form](https://hashcash.hackint.org).
 
@@ -11,6 +11,8 @@ Anonymous access to hackint has been abused in the past. We do not wish to disab
 2. There exists a second Tor entry node that can be used without SASL.
 
   Users connecting this way will receive the hostmask **\*@gateway/tor-unverified**.
+
+Channel administrators can use these hostmasks to control/rate-limit anonymous access to their channel.
 
 We hope that this new policy will reduce abuse and prevent legitimate, anonymous users from being banned in channels.
 

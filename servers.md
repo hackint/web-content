@@ -7,15 +7,11 @@
 | [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                    |
 | [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
-| Matrix                               |                           | *#channel*:irc.hackint.org
+| [Matrix]                             |                           | *#channel*:irc.hackint.org
 
 ### Tor
 
-We offer two Tor hidden services to connect to hackint with. Both of them require End-to-End Encryption throuh TLS.
-
-If you need to authenticate with NickServ you are required to connect with SASL. If you don't have a NickServ account yet you
-might want to create one anonymously through the [Hashcash](/ihashcash) registration method, as NickServ access is disabled when connecting
-through Tor hidden services due to abuse.
+We offer two Tor hidden services to connect to hackint with. Both of them require End-to-End Encryption throuh TLS. [More...](connect#Tor)
 
 ### Jabber
 
@@ -23,7 +19,16 @@ We are running a jabber to IRC bridge that enables the use of IRC Channels as Ja
 
 Just start a MUC (Groupchat) with *#channel*@irc.hackint.org.
 
+### Matrix
+
+We are running a Matrix IRC bridge that enables Matrix users to have a transparent IRC connection and join IRC channels.
+
+Simply join *#channel:irc.hackint.org* from your Matrix client.
+
+*Note: IRC connections through Matrix are currently not flagged as encrypted and therefore cannot join channels that have channel mode +S (SSL/TLS required) set.*
+
 
 [dn42.net]: https://dn42.net
 [chaosvpn]: https://wiki.hamburg.ccc.de/ChaosVPN
 [Tor]: https://www.torproject.org/
+[Matrix]: https://matrix.org
