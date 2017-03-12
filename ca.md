@@ -74,6 +74,7 @@ Depending on your GPG Truststore this might or might not get any usable results.
 [Hackint IRC Network Root CA]: /crt/rootca.crt
 [Hackint IRC Network Intermediate CA G1]: /crt/intermediate1.crt
 [combined signature file]: /crt/sigs/combined.asc
+[andi-.asc]: /crt/sigs/andi-.asc
 [bspar.asc]: /crt/sigs/bspar.asc
 [cr0n.asc]: /crt/sigs/cr0n.asc
 [hansenerd.asc]: /crt/sigs/hansenerd.asc
