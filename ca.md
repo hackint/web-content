@@ -54,6 +54,7 @@ If it matches you should now import the certificate into the certificate trustst
 The [Hackint IRC Network Root CA] certificate has been GPG signed by most of the irc server administrators. Hopefully, you know one of the admins or know someone who signed one of the admin's pgp keys.
 
 You can get a [combined signature file] for checking all signatures at once, or use individual signatures:
+- [andi-.asc],
 - [bspar.asc],
 - [cr0n.asc],
 - [hansenerd.asc],
