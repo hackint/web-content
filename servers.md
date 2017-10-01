@@ -5,15 +5,17 @@
 | From within [dn42.net] / [chaosvpn]  | <irc://irc.hackint.dn42>  | <ircs://irc.hackint.dn42:9999>                          |
 |                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:9999>                          |
 | [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                    |
+| [Tor] (SASL) <small>v3</small>       | n/a                       | <ircs://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6697> |
 | [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
-| [Tor] (SASL, Onion Service v3)       | n/a                       | <ircs://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6697> |
-| [Tor] (Onion Service v3)             | n/a                       | <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> |
+| [Tor] <small>v3</small >             | n/a                       | <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
 | [Matrix]                             |                           | *#channel*:irc.hackint.org
 
 ### Tor
 
-We offer two Tor hidden services to connect to hackint with. Both of them require End-to-End Encryption throuh TLS. [More...](connect#Tor)
+We offer two Tor hidden services (v2) to connect to hackint with. Both of them require End-to-End Encryption throuh TLS. [More...](connect#Tor)
+
+For testing purposes two additional Onion services (v3) have been set up, your feedback to us and the Tor project is very welcome.
 
 ### Jabber
 
