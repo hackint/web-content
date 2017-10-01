@@ -10,7 +10,8 @@ Anonymous access to IRC has a long history of abuse, even until today. As we do 
 
 1. Tor Onion Service **requiring** SASL Authentication
 
-   <ircs://nakufgztylanf4mw.onion:6697>
+   <ircs://nakufgztylanf4mw.onion:6697> (onion v2)
+   <ircs://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6697> (onion v3, requires tor >= 0.3.2.1)
 
    To connect to this server you do need an account, which you can create *anonymously* through the [Hashcash registration](https://hashcash.hackint.org), it employs a [proof-of-work system](https://en.wikipedia.org/wiki/Proof-of-work_system).
 
@@ -18,7 +19,8 @@ Anonymous access to IRC has a long history of abuse, even until today. As we do 
 
 2. Tor Onion Service without any requirements
 
-   <ircs://5ogdsfyoqk47ompu.onion:6697>
+   <ircs://5ogdsfyoqk47ompu.onion:6697> (onion v2)
+   <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> (onion v3, requires tor >= 0.3.2.1)
 
    Users connecting this way will receive the hostmask **\*@gateway/tor-unverified**.
 

@@ -6,6 +6,8 @@
 |                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:9999>                          |
 | [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                    |
 | [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
+| [Tor] (SASL, Onion Service v3)       | n/a                       | <ircs://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6697> |
+| [Tor] (Onion Service v3)             | n/a                       | <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
 | [Matrix]                             |                           | *#channel*:irc.hackint.org
 
