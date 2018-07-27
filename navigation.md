@@ -3,9 +3,11 @@
     - [Servers](/servers)
     - [CA](/ca)
     - [Services](/services)
+    - [Webchat](/webchat)
+- Documentation
     - [Channel modes](/cmodes)
     - [User modes](/umodes)
-    - [Webchat](/webchat)
+    - [Extended Bans](/extban)
 - Support
     - [Support](/support)
     - [FAQ](/faq)
