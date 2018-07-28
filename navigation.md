@@ -5,6 +5,7 @@
     - [Services](/services)
     - [Webchat](/webchat)
 - Documentation
+    - [Abuse Handling](/abuse)
     - [Channel modes](/cmodes)
     - [User modes](/umodes)
     - [Extended Bans](/extban)
