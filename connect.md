@@ -1,6 +1,6 @@
 ## Connecting
 
-When connecting directly from the internet, please set up your client to use the round-robin DNS. We encourage you to use TLS on ports 6697 and 9999 whenever possible.
+When connecting directly from the internet, please set up your client to use the round-robin DNS. We encourage you to use TLS on port 6697 whenever possible.
 
 For connecting through Tor we provide hidden services, one that requires SASL authentication (and therefore an active nickserv account) and one that does not. To acquire a nickserv account anonymously you may choose to use the [Hashcash registration form](http://hashcash.hackint.org), as direct NickServ access through Tor has been disabled.
 

@@ -1,6 +1,6 @@
 ## Certificate Authority
 
-All IRC server's certificates on ports `6697/tcp` and `9999/tcp` are exclusively signed by the [Hackint IRC Network Intermediate CA G1]. The „Hackint IRC Network Intermediate CA G1“ in turn is signed by the [Hackint IRC Network Root CA], which is the only CA you should trust when connecting to the hackint irc network.
+All server certificates on port `6697/tcp` are exclusively signed by the [Hackint IRC Network Intermediate CA G1]. The „Hackint IRC Network Intermediate CA G1“ in turn is signed by the [Hackint IRC Network Root CA], which is the only CA you should trust when connecting to the hackint irc network.
 
 A common certificate chain will look like this, where `0` is the IRC Server, signed by the
 intermediate CA, and `1` is the intermediate CA signed by the Root CA.
