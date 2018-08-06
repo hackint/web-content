@@ -147,6 +147,15 @@ During persistent channel abuse Sigyn might reduce communications for unregister
 
 If your channel is somewhat large you can have an Operator assign it to your channel by asking in `#hackint`.
 
+#### Unkline
+
+For klines that resulted from abuse in a channel where you have operator status, Sigyn allows you to have their ban autmatically lifted:
+
+Example:
+```
+/msg Sigyn unkline niceperson
+```
+
 
 ### Limnoria: Chantracker
 
