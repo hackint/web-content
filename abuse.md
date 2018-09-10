@@ -162,19 +162,19 @@ Example:
 [Chantracker](https://github.com/ncoevoet/ChanTracker) is a powerful abuse handling plugin for [Limnoria](https://github.com/ProgVal/Limnoria) that can be assigned to your own channel, but requires self-hosting.
 
 The feature list reads as follows:
-> flood detection
-> low-rate flood detection: flooding but with client rate-limiting
-> repeat detection
-> massRepeat detection: when same message comes from different users
-> capslock: detect people who are EXTREMELY ANGRY
-> ctcp: detect sending CTCP to the channel
-> notices: detect sending notices to the channel
-> hilight: nick spam
-> nick: nick change spam
-> cycle: join/part flood
-> massJoin
-> evades of quiet/bans via gateway/ ( if resolveIp is True )
-> clones detection
+- flood detection
+- low-rate flood detection: flooding but with client rate-limiting
+- repeat detection
+- massRepeat detection: when same message comes from different users
+- capslock: detect people who are EXTREMELY ANGRY
+- ctcp: detect sending CTCP to the channel
+- notices: detect sending notices to the channel
+- hilight: nick spam
+- nick: nick change spam
+- cycle: join/part flood
+- massJoin
+- evades of quiet/bans via gateway/ ( if resolveIp is True )
+- clones detection
 
 
 
