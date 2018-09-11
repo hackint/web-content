@@ -38,7 +38,7 @@ To verify the authenticity of the server you connect to, download and verify [Ha
 
 #### irssi
 
-<pre>/server -ssl -ssl_verify -ssl_cafile /PATH/TO/hackint-rootca.crt irc.hackint.org 6697</pre>
+<pre>/server add -auto -ssl -ssl_verify -ssl_cafile /PATH/TO/hackint-rootca.crt irc.hackint.org 6697</pre>
 
 #### weechat
 (mind issue [#438](https://github.com/weechat/weechat/issues/438) )
