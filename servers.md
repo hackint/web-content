@@ -13,7 +13,7 @@
 
 ### Tor
 
-We offer two Tor hidden services (v2) to connect to hackint with. Both of them require End-to-End Encryption throuh TLS. [More...](connect#Tor)
+We offer two Tor hidden services (v2) to connect to hackint with. Both of them require End-to-End Encryption through TLS. [More...](connect#Tor)
 
 For testing purposes two additional Onion services (v3) have been set up, your feedback to us and the Tor project is very welcome.
 
