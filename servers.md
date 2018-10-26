@@ -25,12 +25,11 @@ Just start a MUC (Groupchat) with *#channel*@irc.hackint.org.
 
 ### Matrix
 
+*Matrix Bridging is due to be deprecated after 2018/12/31, a news entry with more information will be available soon.*
+
 We are running a Matrix IRC bridge that enables Matrix users to have a transparent IRC connection and join IRC channels.
 
 Simply join *#channel:irc.hackint.org* from your Matrix client.
-
-*Note: IRC connections through Matrix are currently not flagged as encrypted and therefore cannot join channels that have channel mode +S (SSL/TLS required) set.*
-
 
 [dn42.net]: https://dn42.net
 [chaosvpn]: https://wiki.hamburg.ccc.de/ChaosVPN
