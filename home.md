@@ -30,10 +30,10 @@ DN42 connectivity will reduced to TLS-only as well, the sockets will be terminat
 We are deprecating access to hackint from within Matrix and will initiate the bridges shutdown after 2018/12/31. From that point on matrix rooms hosted on irc.hackint.org will become unreachable, IRC identities will be disconnected accordingly.
 
 Providing a Matrix homeserver and bridge is a huge drain on our resources, easily exceeding the requirements for the remainder of our infrastructure. The reasons mostly come down to the following:
-1) memory intensiveness
-2) excessive logging to database, even though we're only relaying information
-3) clients are occasionaly not properly rejoined, but might be able to read messages nevertheless
-4) user connections are never culled, even when they become unused
+- memory intensiveness
+- excessive logging to database, even though we're only relaying information
+- clients are occasionaly not properly rejoined, but might be able to read messages nevertheless
+- user connections are never culled, even when they become unused
 
 Additionally we want to express clearly, that we disallow the bridging of Matrix in general, since some of these issues are universal to its bridging stack and at the same time intolerable.
 
