@@ -44,6 +44,7 @@ Migration recommendations include several self-hosted, native and persistent IRC
 
 as well as bridged protocols
 - XMPP (multiple clients, [media sharing](https://xmpp.org/extensions/xep-0363.html))
+  - configure your XMPP-Server to support [Stream Management](https://xmpp.org/extensions/xep-0198.html) and [MAM](https://xmpp.org/extensions/xep-0313.html)
 
 and hosted options, which we will not advertise for.
 

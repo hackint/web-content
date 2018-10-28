@@ -19,7 +19,8 @@ For testing purposes two additional Onion services (v3) have been set up, your f
 
 ### Jabber
 
-We are running a jabber to IRC bridge that enables the use of IRC Channels as Jabber MUCs.
+We are running a jabber to IRC bridge that enables the use of IRC Channels as Jabber MUCs. For a good mobile experience configure your XMPP-Server to support [Stream Management](https://xmpp.org/extensions/xep-0198.html) and [MAM](https://xmpp.org/extensions/xep-0313.html).
+
 
 Just start a MUC (Groupchat) with *#channel*@irc.hackint.org.
 
