@@ -23,7 +23,7 @@ We will additionally drop support for the channel mode `+S` and extban `$z`, whi
 Onion services will be stripped of their TLS layer and port and offer instead connections secured by Tor on port 6667. They will not be marked as using TLS but the security should be equivalent.
 
 #### DN42
-DN42 connectivity will reduced to TLS-only as well, the sockets will be terminated by a stunnel instance, featuring a certificate signed by the DN42 Certificate Authority. This is necessary because IRC support for SNI isn't quite there yet and usage isn't actually high enough to justify an own ircd.
+DN42 connectivity will be TLS-only as well, the sockets will be terminated by a stunnel instance, featuring a certificate signed by the DN42 Certificate Authority. This is necessary because IRC support for SNI isn't quite there yet and usage isn't actually high enough to justify an own ircd.
 
 ### 2018/10/28 Matrix Bridging Sunset
 
