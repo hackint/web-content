@@ -1,9 +1,9 @@
 # Servers
 | Description                          | Plain                     | TLS (recommended)                                       |
 |--------------------------------------|---------------------------|---------------------------------------------------------|
-| Round Robin:                         | <irc://irc.hackint.org>   | <ircs://irc.hackint.org:6697>                           |
-| From within [dn42.net] / [chaosvpn]  | <irc://irc.hackint.dn42>  | <ircs://irc.hackint.dn42:6697>                          |
-|                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:6697>                          |
+| Round Robin:                         | <s><irc://irc.hackint.org></s>   | <ircs://irc.hackint.org:6697>                    |
+| From within [dn42.net] / [chaosvpn]  | <s><irc://irc.hackint.dn42></s>  | <ircs://irc.hackint.dn42:6697>                   |
+|                                      | <s><irc://irc.hackint.hack></s>  | <s><ircs://irc.hackint.hack:6697></s>            |
 | [Tor] (SASL)                         | n/a                       | <irc://nakufgztylanf4mw.onion:6667>                     |
 | [Tor] (SASL) <small>v3</small>       | n/a                       | <irc://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6667> |
 | [Tor]                                | n/a                       | <irc://5ogdsfyoqk47ompu.onion:6667>                     |
