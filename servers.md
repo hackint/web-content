@@ -9,7 +9,7 @@
 | [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
 | [Tor] <small>v3</small >             | n/a                       | <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
-| [Matrix]                             |                           | *#channel*:irc.hackint.org
+| [Matrix] *until 2018/12/31*          |                           | *#channel*:irc.hackint.org                              |
 
 ### Tor
 
@@ -23,9 +23,11 @@ We are running a jabber to IRC bridge that enables the use of IRC Channels as Ja
 
 Just start a MUC (Groupchat) with *#channel*@irc.hackint.org.
 
+Read up on how to effectively use the bridge with extended features like persistence and message archiving in the [official documentation](https://doc.biboumi.louiz.org/user.html).
+
 ### Matrix
 
-*Matrix Bridging is due to be deprecated after 2018/12/31, a news entry with more information will be available soon.*
+*Matrix Bridging is due to be deprecated after 2018/12/31*
 
 We are running a Matrix IRC bridge that enables Matrix users to have a transparent IRC connection and join IRC channels.
 
