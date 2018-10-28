@@ -1,4 +1,4 @@
-## Welcome to hackint!
+# Welcome to hackint!
 
 hackint is a communication network for the [hacker](https://en.wikipedia.org/wiki/Hacker_culture) community, but anyone is welcome to use its services. Hackint is fully [ircv3.1](http://ircv3.net/irc/#ircv31) compatible.
 

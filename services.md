@@ -1,4 +1,4 @@
-## Services
+# Services
 
 We offer both the usual services like **ChanServ**, **NickServ** and **GroupServ**, along with some custom services. Official services can be recognized by their hostmask: `services.hackint.org`.
 

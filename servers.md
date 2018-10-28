@@ -1,4 +1,4 @@
-## Servers
+# Servers
 | Description                          | Plain                     | TLS (recommended)                                       |
 |--------------------------------------|---------------------------|---------------------------------------------------------|
 | Round Robin:                         | <irc://irc.hackint.org>   | <ircs://irc.hackint.org:6697>                           |

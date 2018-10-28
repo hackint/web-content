@@ -1,4 +1,4 @@
-## Extended Bans (extban)
+# Extended Bans (extban)
 
 Changing channel modes is an operation restricted to channel operators, who can be recognized by the @-prefixed to their name. They mostly regulate access and moderation.
 Extended bans provide additional possibilities to control entries in channel access lists (ban, quiet, exempt, invite). They can offer fine-grained access control and are often used in spam reduction measures.

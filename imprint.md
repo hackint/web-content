@@ -1,4 +1,4 @@
-## Imprint
+# Imprint
 
 Legally responsible for the site is:
 

@@ -1,4 +1,4 @@
-## Connecting
+# Connecting
 
 When connecting directly from the internet, please set up your client to use the round-robin DNS. We encourage you to use TLS on port 6697 whenever possible.
 

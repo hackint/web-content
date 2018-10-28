@@ -1,4 +1,4 @@
-## Anonymous access
+# Anonymous access
 
 Anonymous access to hackint has been abused in the past. We do not wish to disable anonymous access, so we are introducing a new policy: Users wishing to connect to hackint anonymously have two possibilities:
 
