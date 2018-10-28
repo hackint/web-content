@@ -4,14 +4,16 @@
 | Round Robin:                         | <irc://irc.hackint.org>   | <ircs://irc.hackint.org:6697>                           |
 | From within [dn42.net] / [chaosvpn]  | <irc://irc.hackint.dn42>  | <ircs://irc.hackint.dn42:6697>                          |
 |                                      | <irc://irc.hackint.hack>  | <ircs://irc.hackint.hack:6697>                          |
-| [Tor] (SASL)                         | n/a                       | <ircs://nakufgztylanf4mw.onion:6697>                    |
-| [Tor] (SASL) <small>v3</small>       | n/a                       | <ircs://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6697> |
-| [Tor]                                | n/a                       | <ircs://5ogdsfyoqk47ompu.onion:6697>                    |
-| [Tor] <small>v3</small >             | n/a                       | <ircs://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6697> |
+| [Tor] (SASL)                         | n/a                       | <irc://nakufgztylanf4mw.onion:6667>                     |
+| [Tor] (SASL) <small>v3</small>       | n/a                       | <irc://dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion:6667> |
+| [Tor]                                | n/a                       | <irc://5ogdsfyoqk47ompu.onion:6667>                     |
+| [Tor] <small>v3</small >             | n/a                       | <irc://ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion:6667> |
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
 | [Matrix] *until 2018/12/31*          |                           | *#channel*:irc.hackint.org                              |
 
 ### Tor
+
+*The TLS port for all onion services will be deactivated after 2018/11/21, use the plaintext port instead.*
 
 We offer two Tor hidden services (v2) to connect to hackint with. Both of them require End-to-End Encryption through TLS. [More...](connect#Tor)
 
