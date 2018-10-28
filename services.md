@@ -90,9 +90,11 @@ The most important commmands are
   ```
   *You should really check out all the available patterns!*
 
-### LogServ (*unavailable at present*)
+### Sigyn
+Fights spam and abuse on the network. Its only userfacing option is available to channel operators.
 
-Provides a few lines of backlog to joining users, which is similar to how Jabber MUCs work.
+- Unkline users that were illegtimately banned in a channel where you have operator status
+  ```
+  /msg Sigyn unkline <nick>
+  ```
 
-### Greasel
-The Greasel fights spam and currently does not offer any user interface. This might change in the future.
