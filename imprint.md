@@ -1,9 +1,16 @@
 # Imprint
 
-Legally responsible for the site is:
+## Email
 
 ```
-whois hackint.org
+mail at this domain
 ```
 
-Don't know what whois is? Get lost!!
+## Postal
+
+```
+hackint.org
+&#x2105; Chaos Computer Club Darmstadt e.V.
+Wilhelminenstr. 17
+64283 Darmstadt
+```
