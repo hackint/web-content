@@ -58,11 +58,11 @@ They do, after 365 days of inactivity.
 
 ### $(NICK) has been unused for a while, can I have it?
 
-Nicks expire after 365 days of inactivity. However, if a nick has not been used for a while, we might to decide to drop it earlier based on various non-disclosed factors. Just join [#hackint-help](ircs://irc.hackint.org/hackint-help) and ask. Note that nicks will never be dropped if unused for 12 weeks or less.
+Nicks expire after 365 days of inactivity. However, if a nick has not been used for a while, we might to decide to drop it earlier based on various non-disclosed factors. Just join [#hackint](ircs://irc.hackint.org/hackint) and ask. Note that nicks will never be dropped if unused for 12 weeks or less.
 
 ### How do I report abusive behavior?
 
-Just join [#hackint-help](ircs://irc.hackint.org/hackint-help) and talk to us there.
+Just join [#hackint](ircs://irc.hackint.org/hackint) and talk to us there.
 
 ### Can I get a vhost/cloak/spoof?
 
@@ -82,4 +82,4 @@ The greasel is head of hackint's security team. It was bred in hackint's oceanic
 
 ### I have a question that is not answered here.
 
-Join [#hackint-help](ircs://irc.hackint.org/hackint-help) and ask your question there.
+Join [#hackint](ircs://irc.hackint.org/hackint) and ask your question there.
