@@ -11,6 +11,10 @@
 | Jabber/XMPP                          | n/a                       | *#channel*@irc.hackint.org                              |
 | [Matrix] *until 2018/12/31*          |                           | *#channel*:irc.hackint.org                              |
 
+### DN42
+
+The DN42 entrypoint uses a certificate signed by [their own CA](https://dn42.net/services/Certificate-Authority). Using this certificate requires a client that supports Server Name Indication (SNI).
+
 ### Tor
 
 *The TLS port for all onion services will be deactivated after 2018/11/21, use the plaintext port instead.*
