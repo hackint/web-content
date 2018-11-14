@@ -1,5 +1,11 @@
 # Certificate Authority
 
+## Letsencrypt migration
+
+After 2018/11/21 we will migrate to certificates signed by Letsencrypt. Certificates will then be renewed every 2-3 months, which makes certificate pinning quite uncomfortable.
+
+## HackiNt CA
+
 All server certificates on port `6697/tcp` are exclusively signed by the [Hackint IRC Network Intermediate CA G1]. The „Hackint IRC Network Intermediate CA G1“ in turn is signed by the [Hackint IRC Network Root CA], which is the only CA you should trust when connecting to the hackint irc network.
 
 A common certificate chain will look like this, where `0` is the IRC Server, signed by the
