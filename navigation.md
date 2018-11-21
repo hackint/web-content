@@ -4,7 +4,7 @@
     - [Connect](/connect)
     - [Webchat](/webchat)
 - Transports
-    - [Jabber/XMPP](/tranport/xmpp)
+    - [Jabber/XMPP](/transport/xmpp)
     - [Tor](/transport/tor)
     - [DN42](/transport/dn42)
     - [Matrix](/transport/matrix)
