@@ -1,15 +1,19 @@
 - Menu
     - [Home](/)
     - [Servers](/servers)
-    - [CA](/ca)
-    - [Services](/services)
+    - [Connect](/connect)
     - [Webchat](/webchat)
+- Transports
+    - [Jabber/XMPP](/tranport/xmpp)
+    - [Tor](/transport/tor)
+    - [DN42](/transport/dn42)
+    - [Matrix](/transport/matrix)
 - Documentation
     - [Abuse Handling](/abuse)
     - [Channel modes](/cmodes)
     - [User modes](/umodes)
     - [Extended Bans](/extban)
+    - [Services](/services)
 - Support
     - [Support](/support)
     - [FAQ](/faq)
-    - [Connect](/connect)
