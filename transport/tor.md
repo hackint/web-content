@@ -34,9 +34,9 @@ Configure tor as a socks5 proxy and pick a host from above.
 
 If the host requires SASL authentication, configure it like this:
 <pre>
-/set irc.server.hackint.sasl_mechanism PLAIN
-/set irc.server.hackint.sasl_username <login>
-/set irc.server.hackint.sasl_password <password>
+/set irc.server.hackint-tor.sasl_mechanism PLAIN
+/set irc.server.hackint-tor.sasl_username <login>
+/set irc.server.hackint-tor.sasl_password <password>
 </pre>
 
 Finally save and connect.
