@@ -28,7 +28,7 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 
 <pre>
 /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN hackint
-/server add -auto -net hackint -ssl -ssl_verify irc.hackint.orgt 6697
+/server add -auto -net hackint -ssl -ssl_verify irc.hackint.org 6697
 /save
 /connect hackint
 </pre>
