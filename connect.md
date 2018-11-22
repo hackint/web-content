@@ -4,7 +4,7 @@ When connecting directly from the internet, please set up your client to use the
 
 ## Certificate Verification
 
-**Please make sure you don't disable SSL/TLS verification. You're putting not only yourself but also others at risk, by silently allowing Man-in-the-middle attacks and potentially potentially private conversations.**
+**Please make sure you don't disable SSL/TLS verification. You're putting not only yourself but also others at risk, by silently allowing Man-in-the-middle attacks and leaking potentially private conversations.**
 
 All our IRC servers are using ECDSA secp384r1 keys, with certificates signed with sha256 signatures from Let's Encypt. In general their root certificates should already be a part of your local trust store. 
 
