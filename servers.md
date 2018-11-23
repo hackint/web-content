@@ -1,6 +1,6 @@
 # Servers
 
-| Region        | Adress                           |
+| Region        | Address                           |
 |---------------|----------------------------------|
 | Global        | <ircs://irc.hackint.org:6697>    |
 | Europe        | <ircs://irc.eu.hackint.org:6697> |
