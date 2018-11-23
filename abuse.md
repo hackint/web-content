@@ -46,18 +46,6 @@ If people don't know your channel exists abuse is very unlikely to happen. Set c
 /mode #channel +s
 ```
 
-#### TLS only
-
-Over 85% of our users already use TLS to connect, in the near future we will require users to do so, but if abusers don't use TLS the channel mode **`+S`** will prevent them from joining. To check if your users are connected via TLS use `/whois nickname` and see if the response contains the `is using a secure connection` response.
-
-```
-/whois foobar
-[...]
-[foobar] is using a secure connection [TLSv1.2, ECDHE-RSA-AES256-GCM-SHA384]
-[...]
-/mode #channel +S
-```
-
 #### Registered Only / Invite only
 
 Registering with NickServ, while preventing others from using your nickname and tying ACLs to you, can also be used as a criteria to allow users to join a channel. As account registration can be properly rate-limited it limits automated abuse. Two possiblities:
