@@ -1,4 +1,4 @@
-## News Archive
+# News Archive
 
 ### Jan 1 2016
 After finalising our upgrade of the GroupServ interface, we now would like to announce the availability of custom group-based virtual hosts. Currently, this is an offer for hackerspaces, Freifunk communities, and FOSS projects only - other applications may be evaluated on a case-by-case basis.
