@@ -26,21 +26,21 @@ This guide requires that you have Tor installed locally with the SocksPort expos
 #### [WeeChat](https://weechat.org)
 
 Configure tor as a socks5 proxy and pick a host from above.
-<pre>
+```
 /proxy add tor socks5 127.0.0.1 9050
 /server add hackint-tor <host>
 /set irc.server.hackint-tor.proxy "tor"
-</pre>
+```
 
 If the host requires SASL authentication, configure it like this:
-<pre>
+```
 /set irc.server.hackint-tor.sasl_mechanism PLAIN
 /set irc.server.hackint-tor.sasl_username <login>
 /set irc.server.hackint-tor.sasl_password <password>
-</pre>
+```
 
 Finally save and connect.
-<pre>
+```
 /save
 /connect hackint-tor
-</pre>
+```
