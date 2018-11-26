@@ -1,32 +1,16 @@
 # Frequently Asked Questions
 
+## General
+
 ### What is hackint?
 
 hackint is a Internet Relay Chat network for the hacker community worldwide, however everyone is welcome to use this service.
-
-#### Encryption
-For client to server communication we encourage everyone to use TLS encryption;
-Our servers require TLS to communicate amongst each other.
-
-### How can I run a completely unregulated (opless) channel?
-
-There are two possibilities.
-
-1. You can either register the channel and remove the autoop (-O) flag from every user. This way, however, some users will still have more control over the channel than others, namely the ones on the channel's access list.
-
-2. Instead of registering the channel, you can remove your chanop flag immediately after joining the channel. You will never be able to regain chanop status unless you get everyone in the channel to leave.
-
- If you do not immediately deop yourself in the channel, ChanFix will take note of the fact and automatically reop some people if the channel becomes opless. You cannot turn a channel with chanops into an opless channel, unless you register it with ChanServ.
-
-### What does "can't join channel #foo (+S)" mean?
-
-It means that you need to connect to the network via SSL.
 
 ### I can't connect to the network - can you help?
 
 If you are unable to connect to the hackint IRC network, check the error message you get when you try to connect. Please use the e-mail address specified in the error message (if any) to get in touch with us.
 
-### Can I register my nickname/channel?
+### Can I register my nickname?
 
 Yes. To register your nickname, enter
 
@@ -34,9 +18,12 @@ Yes. To register your nickname, enter
 /msg nickserv help register
 ```
 
-and follow the instructions given there. You need not specify a valid email address. The email address is required only if you forget your nickserv password (but passwords are obsolete anyway; you can identify via an SSL client certificate).
+and follow the instructions given there. A valid email address is required in case you forget your NickServ password. Email confirmation may be required during phases of high abuse.
 
-To register your channel, you first need a registered nickname. Then, enter
+
+### Can I regsiter a channel?
+
+To register your channel, you first need to register and identify for a  nickname. Then, enter
 
 ```
 /msg chanserv help register
@@ -46,11 +33,11 @@ and follow the instructions.
 
 ### What kind of channels are allowed on hackint? Is there some kind of on-topic/off-topic policy?
 
-You are welcome to create any kind of channel, as long as it does not violate German, Dutch or US law (the three countries in which you will find hackint servers).
+You are welcome to create any kind of channel, as long as it does not violate German or Dutch law.
 
 ### Someone has taken over my nick/channel, can you help?
 
-I'm sorry, no; that's what NickServ, ChanServ and GroupServ are here for.
+We're sorry, no; that's why you should make use of NickServ, ChanServ and GroupServ.
 
 ### Do nicks expire on hackint?
 
@@ -76,9 +63,15 @@ Do not replace `$account` with your account name. Services will automatically su
 
 **However:** If you want real anonymity, please use the Tor hidden services to connnect to hackint.
 
-### What is the greasel?
+### How can I run a completely unregulated (opless) channel?
 
-The greasel is head of hackint's security team. It was bred in hackint's oceanic laboratories with generous support from Page industries.
+There are two possibilities.
+
+1. You can either register the channel and remove the autoop (-O) flag from every user. This way, however, some users will still have more control over the channel than others, namely the ones on the channel's access list.
+
+2. Instead of registering the channel, you can remove your chanop flag immediately after joining the channel. You will never be able to regain chanop status unless you get everyone in the channel to leave.
+
+ If you do not immediately deop yourself in the channel, ChanFix will take note of the fact and automatically reop some people if the channel becomes opless. You cannot turn a channel with chanops into an opless channel, unless you register it with ChanServ.
 
 ### I have a question that is not answered here.
 
