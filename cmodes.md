@@ -11,6 +11,7 @@ Available cmodes can be queried via:
 ```
 /quote HELP CMODE
 ```
+
 ```
 MODE <channel> <+|-><modes> [parameters]
 
