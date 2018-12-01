@@ -1,6 +1,6 @@
 # Connecting
 
-When connecting directly from the internet, please set up your client to use the round-robin DNS. We require you to use TLS on port 6697.
+When connecting directly from the internet, please set up your client to use the round-robin DNS at `irc.hackint.org`. We require you to use TLS on port 6697.
 
 ## Certificate Verification
 
