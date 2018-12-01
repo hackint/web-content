@@ -10,9 +10,7 @@ Channel modes can be permanently set for registered channels through ChanServ:
 Available cmodes can be queried via:
 ```
 /quote HELP CMODE
-```
 
-```
 MODE <channel> <+|-><modes> [parameters]
 
 ? designates that the cmode is provided by an extension

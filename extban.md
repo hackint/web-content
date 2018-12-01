@@ -6,8 +6,7 @@ Extended bans provide additional possibilities to control entries in channel acc
 Available extbans can be queried via:
 ```
 /quote HELP extban
-```
-```
+
 MODE <channel> <+|-><b|q|e|I> $[~]<type>[:<data>]
 
 Extended bans (ban conditionals) allow different checks than the usual
