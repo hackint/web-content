@@ -1,12 +1,12 @@
 # Connecting
 
-When connecting directly from the internet, please set up your client to use the round-robin DNS. We require you to use TLS on port 6697.
+When connecting directly from the internet, please set up your client to use the round-robin DNS at `irc.hackint.org`. We require you to use TLS on port 6697.
 
 ## Certificate Verification
 
 **Please make sure you don't disable SSL/TLS verification. You're putting not only yourself but also others at risk, by silently allowing Man-in-the-middle attacks and leaking potentially private conversations.**
 
-All our IRC servers are using ECDSA secp384r1 keys, with certificates signed with sha256 signatures from Let's Encypt. In general their root certificates should already be a part of your local trust store. 
+All our IRC servers are using 4096 bit RSA keys, with certificates signed with sha256 signatures from Let's Encypt. In general their root certificates should already be a part of your local trust store. 
 
 For more information you can read up on Let's Encrypts [trust chain](https://letsencrypt.org/certificates/).
 

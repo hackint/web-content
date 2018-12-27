@@ -2,7 +2,11 @@
 
 User modes affect certain settings between you and the IRC Daemon, like how much information you will receive from the ircd or how easy it will be to find you. They're commonly refered to as *umodes*.
 
+Available umodes can be queried via:
+
 ```
+/quote HELP UMODE
+
 MODE <nick> <+|-><modes>
 
 User modes: (* designates that the umode is oper only)
