@@ -32,3 +32,21 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 /save
 /connect hackint
 ```
+
+### [HexChat](https://hexchat.github.io/)
+1. Open the "Network List" (*HexChat -> Network List*)
+2. Click *Add* and name the new network *hackint*
+3. Click *Edit...* and set the following parameters:
+   - Click *Add* and fill **irc.hackint.org/6697** (You have to press enter after filling the server address field!)
+   - Check *Use SSL for all the servers on this network*
+   - Uncheck *Use global user information*
+   - Enter your NickServ *User Name*
+   - Choose "SASL (username + password)" *login method*
+   - Enter your NickServ *password*
+4. Close the network edit window and click *Connect*
+
+![hexchat screenshot 1][hexchat1]
+![hexchat screenshot 2][hexchat2]
+
+[hexchat1]:/images/docs/hexchat1.png
+[hexchat2]:/images/docs/hexchat2.png
