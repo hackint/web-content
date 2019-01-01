@@ -7,7 +7,6 @@
     - [Jabber/XMPP](/transport/xmpp)
     - [Tor](/transport/tor)
     - [DN42](/transport/dn42)
-    - [Matrix](/transport/matrix)
 - Documentation
     - [Abuse Handling](/abuse)
     - [Channel modes](/cmodes)
