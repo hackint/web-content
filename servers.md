@@ -7,10 +7,14 @@
 | - Germany     | <ircs://irc.de.hackint.org:6697> |
 | - Netherlands | <ircs://irc.nl.hackint.org:6697> |
 
-We would like to encourage you to authenticate via one of
-- SASL PLAIN (*easy*)
-- SASL EXTERNAL (*moderately difficult*)
-- CertFP (*moderately difficult*)
+We would like to encourage you to authenticate via one of the following schemes:
+
+- password based (*easy*)
+  - SASL PLAIN
+- certificate based  (*moderately difficult*)
+  - SASL ECDSA-NIST256P
+  - SASL EXTERNAL
+  - CertFP
 
 We're currently using SHA256 fingerprints for SASL External and CertFP.
 
