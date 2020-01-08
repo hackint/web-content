@@ -69,7 +69,7 @@ Registering with NickServ, while preventing others from using your nickname and 
 
 #### Ban
  
-If you notice a pattern in the abusers nickname, ident, gecos or hostname you can use **`+b <mask>`** to ban the users. Note that abusers might be persistent and can adapt to your banmask.
+If you notice a pattern in the abusers nickname, ident, gecos (realname) or hostname you can use **`+b <mask>`** to ban the users. Note that abusers might be persistent and can adapt to your banmask.
 
 **Example:**
 ```
@@ -93,7 +93,7 @@ When your channel has a very static userbase equipping legitimate users with Voi
 
 #### Operator-Moderated
 
-When a message cannot be sent to channel due to one of `+m`, `+b` or `+q` it is instead sent to operators. A common way to employ this is by setting this in combination with either `+q $~a` (quiet unregistered users), or `+q $~z` (quiet non-tls users) 
+When a message cannot be sent to channel due to one of `+m`, `+b` or `+q` it is instead sent to operators. A common way to employ this is by setting this in combination with either `+q $~a` (quiet unregistered users).
     
 **Example:**
 ```
@@ -102,7 +102,7 @@ When a message cannot be sent to channel due to one of `+m`, `+b` or `+q` it is 
 
 #### Quiet
 
-If you notice a pattern in the abusers nickname, ident, gecos or hostname you can use **`+q <mask>`** to quiet the users. Note that abusers might be persistent and can adapt to your quietmask.
+If you notice a pattern in the abusers nickname, ident, gecos (realname) or hostname you can use **`+q <mask>`** to quiet the users. Note that abusers might be persistent and can adapt to your quietmask.
 
 **Example:**
 ```
