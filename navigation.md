@@ -13,6 +13,7 @@
     - [User modes](/umodes)
     - [Extended Bans](/extban)
     - [Services](/services)
+    - [Games](/games)
 - Support
     - [Support](/support)
     - [FAQ](/faq)
