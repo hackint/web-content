@@ -1,11 +1,11 @@
 # Transport / Tor
 
-| Onion Version | Requirements | Host-Cloak       | Hostname                                                         | Port |
-|---------------|--------------|------------------|------------------------------------------------------------------|------|
-| v3            | SASL         | gateway/tor-sasl | <dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion> | 6667 |
-| v2            | SASL         | gateway/tor-sasl | <nakufgztylanf4mw.onion>                                         | 6667 |
-| v3            | *none*       | gateway/tor-anon | <ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion> | 6667 |
-| v2            | *none*       | gateway/tor-anon | <5ogdsfyoqk47ompu.onion>                                         | 6667 |
+| Onion Version | Requirements | Host-Cloak       | Hostname                                                       | Port |
+|---------------|--------------|------------------|----------------------------------------------------------------|------|
+| v3            | SASL         | gateway/tor-sasl | dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion | 6667 |
+| v2            | SASL         | gateway/tor-sasl | nakufgztylanf4mw.onion                                         | 6667 |
+| v3            | *none*       | gateway/tor-anon | ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion | 6667 |
+| v2            | *none*       | gateway/tor-anon | 5ogdsfyoqk47ompu.onion                                         | 6667 |
 
 We do allow anonymous access to hackint using Tor's Onion services. SASL authentication is not required, but you will receive another host cloak, that has a better reputation, as it requires you to be in possession of a services account.
 
