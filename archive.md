@@ -1,5 +1,28 @@
 # News Archive
 
+### 2018/10/28 Matrix Bridging Sunset
+
+We are deprecating access to hackint from within Matrix and will initiate the bridges shutdown after 2018/12/31. From that point on matrix rooms hosted on irc.hackint.org will become unreachable, IRC identities will be disconnected accordingly.
+
+Providing a Matrix homeserver and bridge is a huge drain on our resources, easily exceeding the requirements for the remainder of our infrastructure. The reasons mostly come down to the following:
+- memory intensiveness
+- excessive logging to database, even though we're only relaying information
+- clients are occasionaly not properly rejoined, but might be able to read messages nevertheless
+- user connections are never culled, even when they become unused
+
+Additionally we want to express clearly, that we disallow the bridging of Matrix in general, since some of these issues are universal to its bridging stack and at the same time intolerable.
+
+Migration recommendations include several self-hosted, native and persistent IRC clients
+- [Weechat](https://weechat.org/) (ncurses, relaying)
+- [Quassel](https://quassel-irc.org/) (relaying)
+- [The Lounge](https://thelounge.chat/) (web)
+
+as well as bridged protocols
+- XMPP (multiple clients, [media sharing](https://xmpp.org/extensions/xep-0363.html))
+  - configure your XMPP-Server to support [Stream Management](https://xmpp.org/extensions/xep-0198.html) and [MAM](https://xmpp.org/extensions/xep-0313.html)
+
+and hosted options, which we will not advertise for.
+
 ### Jan 1 2016
 After finalising our upgrade of the GroupServ interface, we now would like to announce the availability of custom group-based virtual hosts. Currently, this is an offer for hackerspaces, Freifunk communities, and FOSS projects only - other applications may be evaluated on a case-by-case basis.
 
