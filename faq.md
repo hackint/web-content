@@ -21,7 +21,7 @@ Yes. To register your nickname, enter
 and follow the instructions given there. A valid email address is required in case you forget your NickServ password. Email confirmation may be required during phases of high abuse.
 
 
-### Can I regsiter a channel?
+### Can I register a channel?
 
 To register your channel, you first need to register and identify for a  nickname. Then, enter
 
