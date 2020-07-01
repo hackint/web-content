@@ -14,7 +14,10 @@ For more information you can read up on Let's Encrypts [trust chain](https://let
 
 We support IPv6 connections, require TLS connections and encourage SASL Authentication (PLAIN and EXTERNAL). The examples below show how to enable SASL PLAIN, which is the easiest among the prefered ways for authenticating.
 
-### [WeeChat](https://weechat.org)
+### WeeChat
+
+[https://weechat.org](https://weechat.org)
+
 ```
 /server add hackint irc.hackint.org/6697 -ipv6 -ssl -autoconnect
 /set irc.server.hackint.sasl_mechanism PLAIN
@@ -24,7 +27,10 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 /connect hackint
 ```
 
-### [irssi](https://irssi.org/)
+### irssi
+
+[https://irssi.org](https://irssi.org)
+
 
 ```
 /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN hackint
@@ -33,7 +39,10 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 /connect hackint
 ```
 
-### [HexChat](https://hexchat.github.io/)
+### HexChat
+
+[https://hexchat.github.io](https://hexchat.github.io)
+
 1. Open the "Network List" (*HexChat -> Network List*)
 2. Click *Add* and name the new network *hackint*
 3. Click *Edit...* and set the following parameters:
