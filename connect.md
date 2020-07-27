@@ -12,7 +12,7 @@ For more information you can read up on Let's Encrypts [trust chain](https://let
 
 ## Quick setup guide
 
-We support IPv6 connections, require TLS connections and encourage SASL Authentication (PLAIN and EXTERNAL). The examples below show how to enable SASL PLAIN, which is the easiest among the prefered ways for authenticating.
+We support IPv6 connections, require TLS connections and encourage SASL Authentication (PLAIN and EXTERNAL). The examples below show how to enable SASL PLAIN, which is the easiest among the preferred ways for authenticating.
 
 ### WeeChat
 
