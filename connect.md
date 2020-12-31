@@ -18,11 +18,20 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 
 [https://weechat.org](https://weechat.org)
 
+Start by adding the hackint network and our round-robin hostname.
 ```
 /server add hackint irc.hackint.org/6697 -ipv6 -ssl -autoconnect
+```
+
+If you already have an account wiht NickServ you can login via SASL PLAIN, if not skip this step.
+```
 /set irc.server.hackint.sasl_mechanism PLAIN
 /set irc.server.hackint.sasl_username <login>
 /set irc.server.hackint.sasl_password <password>
+```
+
+Finally save and connect.
+```
 /save
 /connect hackint
 ```
@@ -31,13 +40,15 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
 
 [https://irssi.org](https://irssi.org)
 
-
 ```
 /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN hackint
 /server add -auto -net hackint -ssl -ssl_verify irc.hackint.org 6697
 /save
 /connect hackint
 ```
+
+Leave out `-sasl_username`, `-sasl_password` and `-sasl-mechanism` if you haven't registered with NickServ yet.
+
 
 ### HexChat
 
@@ -49,9 +60,10 @@ We support IPv6 connections, require TLS connections and encourage SASL Authenti
    - Click *Add* and fill **irc.hackint.org/6697** (You have to press enter after filling the server address field!)
    - Check *Use SSL for all the servers on this network*
    - Uncheck *Use global user information*
-   - Enter your NickServ *User Name*
-   - Choose "SASL (username + password)" *login method*
-   - Enter your NickServ *password*
+   - If you have already registered with NickServ:
+      - Enter your NickServ *User Name*
+      - Choose "SASL (username + password)" *login method*
+      - Enter your NickServ *password*
 4. Close the network edit window and click *Connect*
 
 ![hexchat screenshot 1][hexchat1]
