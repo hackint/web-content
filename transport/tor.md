@@ -19,6 +19,14 @@ We also allow the anonymous creation of services accounts through a [proof of wo
 
 **[Register account via Hashcash](https://hashcash.hackint.org)**
 
+### TLS on Onion Services
+
+For most users the end-to-end encryption provided by Onion services will be sufficient. For everyone else we provide TLS on port 6697, to enable true end-to-end encryption in a few cases. It also enables CertFP and SASL external over Tor.
+
+It comes with the limitation, that we cannot serve a proper certificate matching the `.onion` hostname. Instead a certificate for a `.hackint.org` host will be sent. Please be mindful of your threat model before disabling certificate validation in your client.
+
+One of the cases where this might make sense is in setups like Qubes OS or Whonix, where the Tor traffic may be terminated inside another trust domain, and which would then be forwarded plainly to your client.
+
 ### Quick setup guide
 
 This guide requires that you have Tor installed locally with the SocksPort exposed at *127.0.0.1:9050*.
