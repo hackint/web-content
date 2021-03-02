@@ -11,7 +11,7 @@ We do allow anonymous access to hackint using Tor's Onion services. SASL authent
 
 Onion services after v0.3.2.1 are capable of using the v3 endpoints, those before need to stick to the v2 endpoints.
 
-We only offer plain connections on port 6667 for Onion services, since Tor already end-to-end encrypts the connection. Also proper certificates for `.onion` domains are required to have Extended Validation and are therefore prohibitively expensive.
+We only support plain connections on port 6667 for Onion services, since Tor already end-to-end encrypts the connection. Also proper certificates for `.onion` domains are required to have Extended Validation and are therefore prohibitively expensive.
 
 ### Anonymous Account Registration
 
