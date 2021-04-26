@@ -53,12 +53,6 @@ $ openssl ec -noout -text -conv_form compressed -in ~/.weechat/ecdsa.pem | grep 
 /msg NickServ set property pubkey <pubkey>
 ```
 
-#### Showing your configured public key
-
-```
-/msg NickServ taxonomy
-```
-
 ## Transports
 
 Other ways to connect exist, they use transports, check the menu for that.
