@@ -10,7 +10,7 @@ For inquiries our preferred contact method is by email.
 
 ```
 hackint.org
-&#x2105; Chaos Computer Club Darmstadt e.V.
+℅ Chaos Computer Club Darmstadt e.V.
 Wilhelminenstr. 17
 64283 Darmstadt
 ```
