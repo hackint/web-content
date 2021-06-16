@@ -44,13 +44,23 @@ a challenge-based authentication will happen.
 
 ```
 $ openssl ecparam -genkey -name prime256v1 -out ecdsa.pem
-$ openssl ec -noout -text -conv_form compressed -in ~/.weechat/ecdsa.pem | grep '^pub:' -A 3 | tail -n 3 | tr -d ' \n:' | xxd -r -p | base64
+$ openssl ec -noout -text -conv_form compressed -in ecdsa.pem | grep '^pub:' -A 3 | tail -n 3 | tr -d ' \n:' | xxd -r -p | base64
 ```
 
 #### Configure the public key in your account
 
 ```
 /msg NickServ set property pubkey <pubkey>
+```
+
+#### Configure ecdsa-nistp256-challenge in your client
+
+##### WeeChat
+
+```
+/set irc.server.hackint.sasl_username <account>
+/set irc.server.hackint.sasl_key </path/to/ecdsa.pem>
+/set irc.server.hackint.sasl_method ecdsa-nistp256-challenge
 ```
 
 ## Transports
