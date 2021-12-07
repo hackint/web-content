@@ -4,9 +4,10 @@
     - [Connect](/connect)
     - [Webchat](/webchat)
 - Transports
-    - [Jabber/XMPP](/transport/xmpp)
-    - [Tor](/transport/tor)
     - [DN42](/transport/dn42)
+    - [Jabber/XMPP](/transport/xmpp)
+    - [Matrix](/transport/matrix)
+    - [Tor](/transport/tor)
 - Documentation
     - [Abuse Handling](/abuse)
     - [Channel modes](/cmodes)
