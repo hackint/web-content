@@ -4,8 +4,6 @@
 |---------------------------|------------------|
 | #yourchannel:hackint.org  | gateway/matrix/* |
 
-We are currently in a closed testing phase, and a very limited subset of channels was bridged. If you want to participate testing you can join `#hackint-matrix:hackint.org`.
-
 ## Retention
 
 Hackint implements a rigorous retention policy, so that we do not store conversations older than two minutes. As such we do not participate in providing backlog to remote users, unless they were present at the time, when an event first occured. Other homeservers will likely fill the gap, should your channel have a more relaxed setting concerning history.
