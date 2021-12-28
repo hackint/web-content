@@ -3,9 +3,7 @@
 | Onion Version | Requirements | Host-Cloak           | Hostname                                                       | Port     |
 |---------------|--------------|----------------------|----------------------------------------------------------------|----------|
 | v3            | SASL         | gateway/tor-sasl     | dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion | 6667     |
-| ~~v2~~        | ~~SASL~~     | ~~gateway/tor-sasl~~ | ~~nakufgztylanf4mw.onion~~                                     | ~~6667~~ |
 | v3            | *none*       | gateway/tor-anon     | ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion | 6667     |
-| ~~v2~~        | ~~*none*~~   | ~~gateway/tor-anon~~ | ~~5ogdsfyoqk47ompu.onion~~                                     | ~~6667~~ |
 
 We do allow anonymous access to hackint using Tor's Onion v3 services. SASL authentication is not required, but you will receive another host cloak, that has a better reputation, as it requires you to be in possession of a services account.
 
@@ -13,9 +11,9 @@ We only support plain connections on port 6667 for Onion services, since Tor alr
 
 ### Shutdown of Onion v2 service endpoints
 
-We're about to sunset our support for Onion v2 services and connecting to them will not be possible after 2021/12/31. The [timeline](https://blog.torproject.org/v2-deprecation-timeline/) set by the Tor project disabled v2 services in all versions released after 2021/10/15.
+Onion v2 endpoints were shut down via an upgrade of Tor that occured on 2021/11/24.  The [timeline](https://blog.torproject.org/v2-deprecation-timeline/) set by the Tor project disabled v2 services in all versions released after 2021/10/15.
 
-**Please migrate to our Onion v3 services instead.**
+**Please migrate to our Onion v3 services.**
 
 ### Anonymous Account Registration
 
