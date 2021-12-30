@@ -34,7 +34,7 @@ it holds a token that you need to pass to `@NickServ:hackint.org` to complete
 your registration.
 
 ```
-register <email> <password>
+register <password> <email>
 verify <token>
 ```
 
