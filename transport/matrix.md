@@ -81,3 +81,11 @@ Preventing matrix users from joining your rooms can be achieved by banning
 
 The trailing wildcard is recommended, as we intend to equip Matrix users with
 individual hostnames in the future.
+
+### Administrating the bridged Matrix room
+
+The bridged room on Matrix has its own room settings, such as for example
+privacy settings or the channel logo.
+
+These settings can be modified by Matrix bridge users which are identified
+with NickServ and have channel operator permissions on the IRC side.
