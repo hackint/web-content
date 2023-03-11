@@ -35,7 +35,7 @@ your registration.
 
 ```
 register <password> <email>
-verify <token>
+verify register <name> <token>
 ```
 
 Then return to the conversation with `@appservice-irc:hackint.org` to store
