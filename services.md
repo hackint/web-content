@@ -37,6 +37,10 @@ The most important commands are:
   ```
   /msg ChanServ flags <#channel> <nickname> <+-flags>
   ```
+- Lock channel modes
+  ```
+  /msg ChanServ set <#channel> mlock <+-modes>
+  ```
 
 ### GroupServ
 Provides an abstraction layer for group-based access management. Registered
