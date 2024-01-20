@@ -68,5 +68,5 @@ $ openssl ec -noout -text -conv_form compressed -in ecdsa.pem | grep '^pub:' -A 
 Other ways to connect exist, they use transports, check the menu for that.
 
 [SASL]: https://ircv3.net/docs/sasl-mechs
-[SASL PLAIN]: https://tools.ietf.org/search/rfc4616
-[SASL EXTERNAL]: https://tools.ietf.org/html/rfc4422#appendix-A
+[SASL PLAIN]: https://datatracker.ietf.org/doc/html/rfc4616
+[SASL EXTERNAL]: https://datatracker.ietf.org/doc/html/rfc4422#appendix-A

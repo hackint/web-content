@@ -4,7 +4,7 @@
 
 | Channel   | Documentation          |
 |-----------|------------------------|
-| #idle-rpg | http://irpg.bspar.org/ |
+| #idle-rpg | https://idlerpg.net    |
 
 The Idle RPG is just what it sounds like: an RPG in which the players idle. In addition to merely gaining levels, players can find items and battle other players. However, this is all done for you; you just idle. There are no set classes; you can name your character anything you like, and have its class be anything you like, as well.
 
