@@ -1,8 +1,10 @@
 # Webchat
-Check out our webchat at [webirc.hackint.org]. You can directly link to your channel:
+Check out our webchat at [chat.hackint.org]. You can directly link to your channel:
 
-```<a href="https://webirc.hackint.org/#ircs://irc.hackint.org/#hackint">#hackint</a>```
+```<a href="https://chat.hackint.org/?join=hackint">#hackint</a>```
 
-Please take special care to use the `ircs` protocol, as we do not support plain connections.
+The client software is [The Lounge] and it does support many [more URL parameters].
 
-[webirc.hackint.org]: https://webirc.hackint.org/
+[chat.hackint.org]: https://chat.hackint.org/
+[The Lounge]: https://thelounge.chat/
+[more URL paramters]: https://thelounge.chat/docs/guides/network-overrides
