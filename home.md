@@ -4,6 +4,13 @@ hackint is a communication network for the [hacker](https://en.wikipedia.org/wik
 
 ## News
 
+### 2024/10/30 Webchat replacement
+
+We are replacing _KiwiIRC_, the software that powers our webchat.
+Starting now, _The lounge_ will be available at [chat.hackint.org](https://chat.hackint.org).
+
+Check out our [documentation](/webchat).
+
 ### 2021/12/07 Matrix support is returning to hackint
 
 tl;dr: Join rooms on hackint.org from Matrix via `#channel:hackint.org`. Say hello from Matrix in [#hackint:hackint.org (for #hackint)](https://matrix.to/#/#hackint:hackint.org)!
