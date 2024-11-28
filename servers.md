@@ -4,8 +4,6 @@
 |---------------|----------------------------------|
 | Global        | <ircs://irc.hackint.org:6697>    |
 | Europe        | <ircs://irc.eu.hackint.org:6697> |
-| - Germany     | <ircs://irc.de.hackint.org:6697> |
-| - Netherlands | <ircs://irc.nl.hackint.org:6697> |
 
 ## Authentication
 
