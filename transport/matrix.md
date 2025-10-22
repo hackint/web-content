@@ -1,14 +1,14 @@
 # Transport / Matrix
 
-| Portal rooms              | Host-Cloak       |
-|---------------------------|------------------|
-| #yourchannel:hackint.org  | gateway/matrix/* |
+| Portal rooms              | Host-Cloak          |
+|---------------------------|---------------------|
+| #yourchannel:hackint.org  | fd1a:6295:5133::/64 |
 
 ## Retention
 
-Hackint implements a rigorous retention policy, so that we do not store conversations older than two minutes. As such we do not participate in providing backlog to remote users, unless they were present at the time, when an event first occured. Other homeservers will likely fill the gap, should your channel have a more relaxed setting concerning history.
+We apply a retention policy on events, so that we don't hold data beyond 7 days.
 
-Media content shared from the Matrix side will be served up to 90 days via our homeserver.
+Media content shared from the Matrix will be served for up to 90 days from our homeserver.
 
 ## Known issues
 
@@ -61,10 +61,11 @@ into one of hackints IRC rooms. Plumbing can only be requested by users that
 are operators (ChanServ permissions) to the IRC channel in question.
 
 To initiate the plumbing process, start by inviting
-`@appservice-irc:hackint.org` into your Matrix room and equip them with admin
-permissions to the room. The appservice will only join the room, when the
-plumbing process is complete. This is a prerequisite for the plumbing process
-to work.
+`@appservice-irc:hackint.org` into your Matrix room and equip them with a PL
+(we recommed a PL 50>x<100) that can promote useres to moderator. This is
+required for permission mapping between IRC (+o/+v) and Matrix (PL50/1) can
+take place.
+The appservice will only join the room, once the plumbing process is complete.
 
 When you have completed these steps contact us in `#hackint` and provide us
 with the raw MXID (`!randomstring:example.com`) to your channel as well as the
@@ -73,14 +74,11 @@ IRC room on hackint you would like bridged to it.
 ### What if I don't want Matrix users in my channel?
 
 Preventing matrix users from joining your rooms can be achieved by banning
-`*@gateway/matrix*` from your channel.
+the prefix we hand out to Matrix users.
 
 ```
-/mode +b *@gateway/matrix*
+/mode +b *@fd1a:6295:5133::/64
 ```
-
-The trailing wildcard is recommended, as we intend to equip Matrix users with
-individual hostnames in the future.
 
 ### Administrating the bridged Matrix room
 
