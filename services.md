@@ -22,7 +22,7 @@ The most important commands are:
   ```
   </del>
 
-  *This method is deprecated and will become unavailable in 2026-02. Wee recommend migrating to SASL PLAIN instead.*
+  *This method is deprecated and will become unavailable in 2026-02. We recommend migrating to SASL PLAIN instead.*
 
 ### ChanServ
 Enables registration of channels to secure ownership and enable management of access flags for both *users* and *groups*.
