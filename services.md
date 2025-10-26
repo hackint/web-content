@@ -16,12 +16,13 @@ The most important commands are:
   ```
   /msg NickServ register <password> <email>
   ```
-- Authenticating
+- <span style="color: red; text-decoration: line-through;">Authenticating
   ```
   /msg NickServ identify <password>
   ```
-  *While authenticating by password is fundamentally possible, we recommend to
-either use CertFP or SASL.*
+  </span>
+
+  *This method is deprecated and will become unavailable in 2026-02. Wee recommend migrating to SASL PLAIN instead.*
 
 ### ChanServ
 Enables registration of channels to secure ownership and enable management of access flags for both *users* and *groups*.
