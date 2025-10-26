@@ -16,11 +16,11 @@ The most important commands are:
   ```
   /msg NickServ register <password> <email>
   ```
-- <span style="color: red; text-decoration: line-through;">Authenticating
+- <del>Authenticating
   ```
   /msg NickServ identify <password>
   ```
-  </span>
+  </del>
 
   *This method is deprecated and will become unavailable in 2026-02. Wee recommend migrating to SASL PLAIN instead.*
 
