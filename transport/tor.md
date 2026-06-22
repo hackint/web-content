@@ -3,7 +3,6 @@
 | Onion Version | Requirements | Host-Cloak           | Hostname                                                       | Port       |
 |---------------|--------------|----------------------|----------------------------------------------------------------|------------|
 | v3            | SASL         | gateway/tor-sasl     | dtlbunzs5b7s5sl775quwezleyeplxzicdoh3cnhm7feolxmkfd42nqd.onion | 6667, 6697 |
-| v3            | *none*       | gateway/tor-anon     | ncwkrwxpq2ikcngxq3dy2xctuheniggtqeibvgofixpzvrwpa77tozqd.onion | 6667       |
 
 We do allow anonymous access to hackint using Tor's Onion v3 services. SASL authentication is not required, but you will receive another host cloak, that has a better reputation, as it requires you to be in possession of a services account. Identifying to an existing account from tor-anon gateway is not possible.
 
