@@ -11,16 +11,13 @@ To get help with a service, message it with the **help** command. For example wi
 ### NickServ
 This service will protect your nickname. Certain access rights to *channels* or *groups* might be linked to it.
 
-The most important commands are:
+The most important command is:
 - Register a nickname
   ```
   /msg NickServ register <password> <email>
   ```
-- Authenticating
-  ```
-  /msg NickServ identify <password>
-  ```
-  *This method is deprecated and will become unavailable in 2026-02. We recommend migrating to SASL PLAIN instead.*
+
+*Authentication by messaging NickServ was removed in 2026-02. We recommend using SASL PLAIN instead.*
 
 ### ChanServ
 Enables registration of channels to secure ownership and enable management of access flags for both *users* and *groups*.
