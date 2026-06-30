@@ -51,14 +51,14 @@ $ openssl ec -noout -text -conv_form compressed -in ecdsa.pem | grep '^pub:' -A 
 /msg NickServ set property pubkey <pubkey>
 ```
 
-#### Configure ecdsa-nistp256-challenge in your client
+#### Configure ecdsa-nist256p-challenge in your client
 
 ##### WeeChat
 
 ```
 /set irc.server.hackint.sasl_username <account>
 /set irc.server.hackint.sasl_key </path/to/ecdsa.pem>
-/set irc.server.hackint.sasl_method ecdsa-nistp256-challenge
+/set irc.server.hackint.sasl_mechanism ecdsa-nist256p-challenge
 ```
 
 ## Transports
